@@ -1,0 +1,19 @@
+22- O programa começa no método main
+25- Imprime a mensage para o usuario informar o tamanho do vetor
+26- Cria a variavel n para receber o tamanho do vetor
+27- Cria a variavel vetor v[] com tamanho de n
+28- Executa o método exibir() com primeiro parâmetro a função prencher(), então ele roda a função prencher()
+15- Inicializa a função prencher()
+7- Cria o objeto r da classe Ramdon
+8- Condicional n >= 10 true
+9- Adiciona um numero aleatório na posição 9 do veto
+10- Chama a função prencher() denovo com o vetor com o vetor v[] e n-1 de parâmetro
+Faz esse processo ate n ser maior ou igual a 0
+12- Retorna o vetor prenchido
+28- Chama a função exibir() com o 1 parametro o retorno da função prencher e o 2 n-1
+15- Inicializa a função exibir()
+16- Condicional n >= 0 true
+17- Imprime o numero do vetor na posição n
+18- Chama a função exibir novamente com parametro v[] e n-1
+Faz esse processo até n ser maior ou igual a 0
+Fim do programa

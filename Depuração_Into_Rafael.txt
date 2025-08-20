@@ -1,3 +1,5 @@
+DEPURAÇÃO DO CÓDIGO STEPINTO
+
 22- O programa começa no método main
 25- Imprime a mensage para o usuario informar o tamanho do vetor
 26- Cria a variavel n para receber o tamanho do vetor

@@ -1,0 +1,32 @@
+STEP OVER:
+“Traz o resultado da instrução sem acessar ramificações.”
+
+
+RELATO
+
+Definição breakpoint: Linha 26
+	A função “main” começa na linha 22
+
+	Linha 26: int n = sc.nextInt();
+	Step over: sc scanner. Pedido para input de valor primitivo tipo inteiro.
+
+	Linha 27: int[] v = new int[n];
+	Step over: n: 5, variável já declarada;
+
+	Linha 28: exibir(prencher(v, n - 1), n - 1);
+	Step over: Alocação de espaço na memória de um array. 1 linha e comprimento de "n" colunas. Todos valores iniciais igual à 0 inicialmente, pois ainda não foram gerados os valores aleatórios;
+Aparição de sub-fluxo “exibir”.
+	v = (int[5]) [0, 0, 0, 0, 0]
+
+	Linha 31: 	}
+	Step over: Finalização da função "main" e valores aleatórios já gerados e substituídos no array
+	v = (int[5]) [3, 4, 1, 1, 6]
+
+	Linha 32: }
+	Step over: Finalização da classe “Main”. Fim do programa.
+
+
+
+
+Aparição de sub fluxos que não entrou
+
